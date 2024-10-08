@@ -14,9 +14,6 @@ class AnimalManager:
     def update_animal_details(animal_id: int, **kwargs: Any) -> None:
         pass
 
-    def assign_animals_to_habitat(habitat_id: int, animals: List[Animal]) -> None:
-        pass
-
     def get_animals_in_habitat(habitat_id: int) -> List[Animal]:
         pass
     
